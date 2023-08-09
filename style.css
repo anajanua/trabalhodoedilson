@@ -1,0 +1,203 @@
+/* Estilos para telas pequenas, como dispositivos móveis */
+@media (max-width: 768px) {
+    /* Adicione estilos para telas pequenas aqui */
+}
+
+/* Estilos para telas médias, como tablets em modo retrato */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adicione estilos para telas médias aqui */
+}
+
+/* Estilos para telas grandes, como desktops */
+@media (min-width: 1025px) {
+    /* Adicione estilos para telas grandes aqui */
+}
+
+
+/* Menu */
+.Sobre{
+    color: #00ADB5;
+}
+
+h1{
+    color: #00ADB5;
+}
+
+body{
+    background: #222831;
+    
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #222831;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid #393E46;
+
+
+
+
+
+}
+
+#data{
+    align-items: center;
+    margin-left: 100rem;
+    margin-top: -49rem;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #00ADB5 ;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menu li a:hover {
+    color: rgb(0, 153, 255);
+
+}
+
+
+
+.Sobre {
+    margin-left: 53rem;
+    margin-top: -45rem;
+    font-size: 20px;
+
+}
+
+
+
+/* Formulario */
+
+.form-container {
+
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 5rem;
+    background-color:#222831;
+
+    height: 32rem;
+    margin-right: 50rem;
+    margin-left: 20rem;
+    color: #00ADB5;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00ADB5;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="submit"] {
+    background-color: #393E46;
+    color: #00c3ff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00c3ff;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+#explicacao {
+    resize: none;
+}
+
+#tl {
+    margin-top: 32rem;
+    margin-left: 20rem;
+}
+
+/* Imagens  */
+.Img1 {
+
+    display: flex;
+    height: 48rem;
+    width: 50rem;
+    margin-top: 8rem;
+}
+
+.foto1 {
+    height: 50px;
+    display: flex;
+
+}
+
+.fotos2 {
+    height: 25px;
+    display: flex;
+    margin-left: 62rem;
+    letter-spacing: 10px;
+    margin-top: -25px;
+    
+    
+    
+    
+    
+}
+
+/* Textos */
+
+#data {
+    align-items: center;
+    margin-left: 100rem;
+    margin-top: -49rem;
+}
+
+footer {
+    background-color: #393E46;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50rem;
+  }
+  
+  .info {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  p{
+    color: aliceblue;
+  }
